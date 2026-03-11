@@ -1,7 +1,7 @@
 #User function Template for python3
 a = input()
 b = input()
-separator = input()[0]
+separator = input()
 
 ########### Write your code below ###############
 
@@ -14,6 +14,6 @@ separator = input()[0]
 # Print without space
 
 ########### Write your code above ###############
-print(a,b)
+print(a , b)
 print(a,b+a+separator+b)
 print(a+b)
