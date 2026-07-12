@@ -2,18 +2,17 @@ class Solution {
   public:
     vector<int> sieve(int n) {
         // code here
-        vector<int> result;
+        vector<int>  result;
         for(int i=2;i<=n;i++){
-        bool check =true;
+            bool check = false;
             for(int j=2;j*j<=i;j++){
-                if(i%j==0){
-                    check = false;
-                    break;
-                }
+                if(i%j==0) check = true;
             }
-            if(check==true) result.push_back(i);
             
+            if(check == false) result.push_back(i);
         }
+        
         return result;
+        
     }
 };
