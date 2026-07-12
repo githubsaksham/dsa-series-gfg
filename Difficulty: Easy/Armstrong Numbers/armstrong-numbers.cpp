@@ -2,21 +2,21 @@ class Solution {
   public:
     bool armstrongNumber(int n) {
         // code here
-        int temp = n;
-        int temp1= n;
-        int sum =0;
+        int num =n;
         int digits =0;
-        while(temp!=0){
+        while(num!=0)
+        {
             digits++;
-            temp=temp/10;
+            num=num/10;
         }
-        while(temp1!=0){
-            int digit = temp1%10;
+        int run =n;
+        int sum=0;
+        while(run!=0){
+            int digit = run%10;
             sum+= pow(digit,digits);
-            temp1=temp1/10;
+            run=run/10;
         }
         
         return sum==n;
-        
     }
 };
