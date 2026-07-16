@@ -7,7 +7,6 @@ class Solution {
             int key = arr[i];
             int j = i - 1;
 
-            // Move elements greater than key one position ahead
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j--;
