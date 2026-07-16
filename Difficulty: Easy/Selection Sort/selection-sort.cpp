@@ -1,19 +1,20 @@
 class Solution {
   public:
-    // Function to perform selection sort on the given array.
     void selectionSort(vector<int> &arr) {
-    int n = arr.size();
-    for (int i = 0; i < n - 1; ++i) {
-        int min_idx = i;
-        for (int j = i + 1; j < n; ++j) {
-            if (arr[j] < arr[min_idx]) {
-                min_idx = j; 
+        int n = arr.size();
+
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+
+            // Find the minimum element
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
             }
+
+            // Swap the minimum element with the current element
+            swap(arr[i], arr[minIndex]);
         }
-        int temp = arr[i];
-        arr[i] = arr[min_idx];
-        arr[min_idx] = temp;
-       
     }
-}
 };
