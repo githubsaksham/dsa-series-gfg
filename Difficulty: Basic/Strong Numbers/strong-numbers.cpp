@@ -1,24 +1,24 @@
 class Solution {
   public:
   public:
-  int factorial(int n )
-  {
-      if(n==0) return 1;
-      
-      return n*factorial(n-1);
-  }
-     bool isStrong(int n) {
+  
+  
+     int fact(int n){
+         if(n==0) return 1;
+         
+         return n*fact(n-1);
+     }
+    bool isStrong(int n) {
         // code here.
-        int num =n ;
-        int sum=0;
-        while(num!=0){
-            int digit = num%10;
-            sum+=factorial(digit);
-            num=num/10;
+        int original = n;
+        int sum =0;
+        while(n!=0){
+            int digit = n%10;
+            sum += fact(digit);
+            n= n/10;
         }
         
-        if(sum==n) return true;
-        
-        return false;
+        return sum==original;
     }
 };
+
