@@ -5,4 +5,4 @@
 </pre>
 <pre><span style="font-size: 18px;"><strong>Input</strong>: s = "abc d "<br><strong>Output:</strong> "abcd"
 <strong>Explanation</strong>:  All space characters are removed from the given string while preserving the order of the remaining characters, resulting in the final string "abcd".</span></pre>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |s| ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>SAP Labs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |s| ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>SAP Labs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
