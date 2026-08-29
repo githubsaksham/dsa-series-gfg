@@ -6,4 +6,4 @@ Explanation: </strong>'e' is the character which is having the highest frequency
 <pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">s = "output"
 <strong>Output: </strong>'t'<strong>
 Explanation: </strong>'t' and 'u' are the characters with the same frequency, but 't' is lexicographically smaller.</span></pre>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |s| ≤ 100</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |s| ≤ 100</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
