@@ -1,0 +1,14 @@
+class Solution {
+public:
+    bool searchKey(Node* head, int key) {
+        while (head != nullptr) {
+            if (head->data == key) {
+                return true;
+            }
+
+            head = head->next;
+        }
+
+        return false;
+    }
+};
