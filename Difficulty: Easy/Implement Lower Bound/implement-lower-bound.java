@@ -1,0 +1,20 @@
+class Solution  {
+    public static int lowerBound(int[] arr, int target) {
+        int left = 0;
+        int right = arr.length - 1;
+        int answer = arr.length;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] >= target) {
+                answer = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return answer;
+    }
+}
