@@ -11,11 +11,15 @@ class Node {
 class Solution {
     public ArrayList<Integer> printList(Node head) {
         // code here
-        ArrayList<Integer> l = new ArrayList<>();
+        ArrayList<Integer> ans = new ArrayList<>();
         while(head!=null){
-            l.add(head.data);
-            head=head.next;
+            ans.add(head.data);
+            head = head.next;
+            
         }
-        return l;
+        return ans ;
+        
+        
+       
     }
 }
